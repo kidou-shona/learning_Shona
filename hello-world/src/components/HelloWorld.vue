@@ -35,31 +35,28 @@
         
         
         
-        <div class="text-center">
-    <v-btn class="mx-2" fab dark small color="primary">
-      <v-icon dark>mdi-minus</v-icon>
-    </v-btn>
-
-    <v-btn class="mx-2" fab dark small color="pink">
-      <v-icon dark>mdi-heart</v-icon>
-    </v-btn>
-
-    <v-btn class="mx-2" fab dark color="indigo">
-      <v-icon dark>mdi-plus</v-icon>
-    </v-btn>
-
-    <v-btn class="mx-2" fab dark color="teal">
-      <v-icon dark>mdi-format-list-bulleted-square</v-icon>
-    </v-btn>
-
-    <v-btn class="mx-2" fab dark large color="cyan">
-      <v-icon dark>mdi-pencil</v-icon>
-    </v-btn>
-
-    <v-btn class="mx-2" fab dark large color="purple">
-      <v-icon dark>mdi-android</v-icon>
-    </v-btn>
-  </div>
+        <v-row align="center">
+    <v-col class="text-center" cols="12" sm="4">
+      <div class="my-2">
+        <v-btn small>Home</v-btn>
+      </div>
+      <div class="my-2">
+        <v-btn small>Sheeps</v-btn>
+      </div>
+      <div class="my-2">
+        <v-btn small>UI</v-btn>
+      </div>
+      <div class="my-2">
+        <v-btn small>Characters</v-btn>
+      </div>
+        <div class="my-2">
+        <v-btn small>Objects</v-btn>
+      </div>
+    <div class="my-2">
+        <v-btn small>All</v-btn>
+      </div>
+    </v-col>
+  </v-row>
         
         
      <v-card
@@ -68,7 +65,7 @@
   >
     <v-card-text>
       <p class="display-1 text--primary">
-        Learning•Shona
+        ZL•icons
       </p>
     </v-card-text>
   </v-card>   
